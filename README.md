@@ -1,2 +1,2 @@
-# ktoyne.github.io
+ktoyne.github.io
 Portfolio and Job Listings Site
