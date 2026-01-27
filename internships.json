@@ -1,1 +1,28 @@
-
+{
+    "internships": [
+        {
+            "position": "Internship 1",
+            "company": "Company A",
+            "location": "Location A",
+            "description": "Description A",
+            "link": "",
+            "dateAdded": "2026-01-27"
+        },
+        {
+            "position": "Internship 2",
+            "company": "Company B",
+            "location": "Location B",
+            "description": "Description B",
+            "link": "",
+            "dateAdded": "2026-01-27"
+        },
+        {
+            "position": "Internship 3",
+            "company": "Company C",
+            "location": "Location C",
+            "description": "Description C",
+            "link": "",
+            "dateAdded": "2026-01-27"
+        }
+    ]
+}
