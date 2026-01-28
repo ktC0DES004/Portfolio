@@ -60,7 +60,6 @@ function displayInternships(internships) {
                 <h3>${internship.position}</h3>
                 <p class="company">${internship.company}</p>
                 <p class="location">${internship.location}</p>
-                <p>${internship.description}</p>
                 ${internship.link ? `<p><a href="${internship.link}" target="_blank">View Posting</a></p>` : ''}
                 <p><small>Added: ${internship.dateAdded}</small></p>
             `;
