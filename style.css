@@ -154,4 +154,25 @@ footer {
     main {
         padding: 0 1rem;
     }
+    /* Show More Button */
+.show-more-btn {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    font-weight: 500;
+}
+
+.show-more-btn:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+}
+
+.show-more-btn:active {
+    transform: translateY(0);
+}
 }
