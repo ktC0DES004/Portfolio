@@ -1,32 +1,32 @@
 {
     "internships": [
         {
-            "position": "Internship 1",
-            "company": "Company A",
-            "location": "Location A",
-            "link": "",
-            "dateAdded": "2026-01-27"
+            "position": "Cyber Security Intern - Summer 2027",
+            "company": "Honeywell Aerospace",
+            "location": "United States (Remote/Hybrid)",
+            "link": "https://icfcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Aerospace/job/122169",
+            "dateAdded": "2026-10-24"
         },
         {
-            "position": "Internship 2",
-            "company": "Company B",
-            "location": "Location B",
-            "link": "",
-            "dateAdded": "2026-01-27"
+            "position": "Cyber Security Intern - Summer 2027",
+            "company": "Honeywell Aerospace",
+            "location": "Multiple Locations, United States",
+            "link": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/155554",
+            "dateAdded": "2026-10-24"
         },
         {
-            "position": "Internship 3",
-            "company": "Company C",
-            "location": "Location C",
-            "link": "",
-            "dateAdded": "2026-01-27"
+            "position": "IT Desktop Engineering Intern",
+            "company": "Leidos",
+            "location": "Remote, United States",
+            "link": "https://careers.leidos.com/jobs/18364542-it-desktop-engineering-intern?tm_job=R-00194524&tm_event=view&tm_company=2502&bid=56",
+            "dateAdded": "2026-10-24"
         },
         {
-            "position": "Internship 4",
-            "company": "Company D",
-            "location": "Location D",
-            "link": "",
-            "dateAdded": "2026-01-27"
+            "position": "Intern, Global Enterprise Technology (Summer 2027)",
+            "company": "Royal Caribbean Group",
+            "location": "Miramar, FL (Hybrid)",
+            "link": "https://jobs.royalcaribbeangroup.com/job/Miami-Intern%2C-Global-Enterprise-Technology-%28Summer-2027%29-FL-33132/1442043300/",
+            "dateAdded": "2026-10-24"
         }
     ]
 }
