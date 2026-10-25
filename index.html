@@ -1,51 +1,205 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kai's Portfolio and Internship Tracker</title>
+    <meta name="description" content="Cybersecurity Portfolio of Kai Toyne - Student IT Operations Support Specialist @ FIU. Showcasing projects in SIEM, virtualization, and security operations.">
+    <meta property="og:title" content="Kai Toyne | Cybersecurity Portfolio">
+    <meta property="og:description" content="Explore my cybersecurity projects, technical skills, and internship tracker.">
+    <meta property="og:type" content="website">
+    <title>Kai Toyne | Cybersecurity Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <nav>
-            <h1>Kai Toyne</h1>
-            <ul>
+            <div class="logo">
+                <span class="logo-text">KAI_TOYNE</span><span class="cursor">_</span>
+            </div>
+            <ul class="nav-links">
+                <li>
+                    <button id="theme-toggle" aria-label="Toggle light/dark theme">
+                        <span class="icon">🌓</span>
+                    </button>
+                </li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#internships">Internships</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#internships">Tracker</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+            <div class="nav-actions">
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </div>
         </nav>
     </header>
 
     <main>
+        <section id="hero" class="glitch-container">
+            <h1 class="hero-title">Student IT Operations Support Specialist @ FIU <span class="hero-title-separator">|</span> Prev Cybersecurity Intern @ Guidehouse</h1>
+            <p class="hero-subtitle">I’m pursuing a B.S. in Cybersecurity at Florida International University, with interests in technical cybersecurity, security operations, and cyber threat intelligence.</p>
+            <p class="hero-subtitle">My experience includes federal cybersecurity consulting with Guidehouse, IT operations support at FIU, and cybersecurity research with Miami-Dade County IT. I’ve gained hands-on experience with security assessments, Microsoft Sentinel and KQL, Linux administration, and technical troubleshooting.</p>
+            <p class="hero-subtitle">I also build hands-on projects to strengthen my skills, including an Azure Sentinel threat detection lab and a VMware-based cybersecurity lab focused on Linux, networking, security testing, and system hardening.</p>
+            <p class="hero-subtitle">I’m interested in opportunities where I can continue developing as a technical cybersecurity professional while exploring security operations, threat intelligence, and offensive security.</p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn primary">View Projects</a>
+                <a href="#contact" class="btn secondary">Get In Touch</a>
+            </div>
+        </section>
+
         <section id="about">
-            <h2>About Me</h2>
-            <p>
-                I'm currently studying for a B.S. in Cybersecurity, with my goal being to get into a career of Pentesting.
-            </p>
-            <p>
-                This portfolio showcases my projects and tracks internship opportunities that I've found and would like to share!
-            </p>
+            <h2><span class="mono">01.</span> About Me</h2>
+            <div class="about-content">
+                <p>
+                    I'm currently studying for a B.S. in Cybersecurity, with my goal being to get into a career of Pentesting.
+                </p>
+                <p>
+                    This portfolio showcases my technical projects and tracks internship opportunities that I've found and would like to share!
+                </p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2><span class="mono">02.</span> Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Technical</h3>
+                    <ul>
+                        <li>Linux System Administration</li>
+                        <li>VMware Virtualization</li>
+                        <li>Python</li>
+                        <li>SIEM & Log Analytics (Microsoft Sentinel, KQL)</li>
+                        <li>Network Security</li>
+                        <li>Penetration Testing (Nmap, Metasploit, Wireshark)</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Cybersecurity</h3>
+                    <ul>
+                        <li>NIST SP 800-53</li>
+                        <li>Governance, Risk & Compliance (GRC)</li>
+                        <li>Risk Assessment</li>
+                        <li>Security Control Validation</li>
+                        <li>Federal Cybersecurity Compliance</li>
+                        <li>Control Gap Analysis</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Professional</h3>
+                    <ul>
+                        <li>Leadership</li>
+                        <li>Team Collaboration</li>
+                        <li>Technical Communication</li>
+                        <li>Problem-Solving</li>
+                        <li>Adaptability</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Defensive</h3>
+                    <ul>
+                        <li>Microsoft Sentinel (SIEM)</li>
+                        <li>Azure Security Center</li>
+                        <li>Log Analytics (KQL)</li>
+                        <li>Threat Detection</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Offensive</h3>
+                    <ul>
+                        <li>Pentesting (Kali Linux)</li>
+                        <li>Nmap & Wireshark</li>
+                        <li>Metasploit</li>
+                        <li>Vulnerability Assessment</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Infrastructure</h3>
+                    <ul>
+                        <li>Azure Cloud Architecture</li>
+                        <li>VMware Workstation</li>
+                        <li>Linux Admin (Bash)</li>
+                        <li>System Hardening</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2><span class="mono">03.</span> Projects</h2>
+            <div class="projects-list">
+                <article class="project-card">
+                    <div class="project-header">
+                        <h3>Azure Sentinel SIEM Lab</h3>
+                        <div class="project-links">
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <p>Configured an intentionally vulnerable Windows 10 honeypot VM in Azure to attract and log malicious inbound traffic. Implemented centralized log aggregation using Azure Log Analytics Workspace and Microsoft Sentinel.</p>
+                        <ul>
+                            <li><strong>Log Enrichment:</strong> Joined Event ID 4625 logs with a GeoIP watchlist (~54,000 IP ranges) to map attacker locations.</li>
+                            <li><strong>Analytics:</strong> Developed custom KQL queries to identify brute-force patterns and correlate attacker IPs.</li>
+                            <li><strong>Visualization:</strong> Created a dynamic Azure Dashboard with live KQL visualizations for real-time monitoring.</li>
+                        </ul>
+                    </div>
+                    <div class="project-tech">
+                        <span>Azure</span> <span>Sentinel</span> <span>KQL</span> <span>SIEM</span> <span>Honeypot</span>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-header">
+                        <h3>Virtual Machine Home Lab</h3>
+                    </div>
+                    <div class="project-body">
+                        <p>Set up and managed a virtualized cybersecurity lab using VMware as the hypervisor, creating an isolated environment for safe experimentation.</p>
+                        <ul>
+                            <li><strong>Kali Linux:</strong> Used for pentesting, vulnerability assessments, and security research (Nmap, Metasploit, Wireshark).</li>
+                            <li><strong>Linux Mint:</strong> Utilized for system administration, scripting, and security hardening practice.</li>
+                            <li><strong>Hardening:</strong> Practiced Linux system administration, user management, and implementing secure SSH/firewall configurations.</li>
+                        </ul>
+                    </div>
+                    <div class="project-tech">
+                        <span>VMware</span> <span>Kali Linux</span> <span>Linux Admin</span> <span>Pentesting</span>
+                    </div>
+                </article>
+            </div>
         </section>
 
         <section id="internships">
-            <h2>Internship Tracker</h2>
-            <p>Here are internships I've applied for and that I'm tracking:</p>
-            <div id="internship-list">
-                <!-- Internships will load here from script.js -->
-                <p>Loading internships...</p>
+            <h2><span class="mono">04.</span> Internship Tracker</h2>
+            <p>A public log of cybersecurity internship opportunities I'm currently tracking.</p>
+            <div id="internship-list" class="grid-container">
+                <div class="loader">
+                    <div class="spinner"></div>
+                    <p>Scanning for opportunities...</p>
+                </div>
             </div>
         </section>
 
         <section id="contact">
-            <h2>Contact</h2>
-            <p>Feel free to reach out via <a href="https://www.linkedin.com/in/kai-toyne04/">LinkedIn</a></p>
+            <h2><span class="mono">05.</span> Contact</h2>
+            <div class="contact-card">
+                <p>I'm always open to discussing security research, project collaborations, or internship opportunities.</p>
+                <a href="https://www.linkedin.com/in/kai-toyne04/" class="btn primary linkedin-btn">Connect on LinkedIn</a>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 Kai Toyne. All rights reserved.</p>
+        <div class="footer-content">
+            <p class="mono">&copy; 2026 KAI_TOYNE // ALL_RIGHTS_RESERVED</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/kai-toyne04/" target="_blank" rel="noopener">LinkedIn</a>
+                <a href="https://github.com/ktc0des004" target="_blank" rel="noopener">GitHub</a>
+            </div>
+        </div>
     </footer>
 
     <script src="script.js"></script>
